@@ -21,3 +21,5 @@ Este sistema lo podria escalar primero con un dashboard para que el usario inter
  El principal problema es que uso una API KEY gratuita y los tokens son muy limitados para muchas consultas.
 ¿Cómo mejorarías la calidad de los datos?
 Como hice la API REST en java podria usar annotations para que los valores de los campos no sean nulos ni vacios. Tambien en el agente podira ponerle mas seguridad pidiendo que no se ingresen valores nulos ni blancos. 
+
+https://drive.google.com/drive/folders/1PGGYmpVCysyEq0RppRyvZZ7HN2YgW5sq?usp=sharing

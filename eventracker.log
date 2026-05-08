@@ -181,3 +181,107 @@
 2026-05-08 00:25:15,229 - INFO - Se descarta el eventoSobre Los Rieles De La Historia por pedido del usuario
 2026-05-08 00:25:17,939 - INFO - revision cancelada.
 2026-05-08 00:25:17,943 - INFO - Prueba finalizada.
+2026-05-08 10:47:24,360 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-08 10:48:01,744 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-08 10:48:02,672 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:48:02,673 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:48:19,171 - INFO - Response received from the model.
+2026-05-08 10:48:19,172 - INFO -  Evento encontrado: Mortal Kombat II (Premiere N 301 de Agenda Tucumán)
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: El diablo viste a la moda 2 (Pre-estreno)
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: Documental 'Sobre Los Rieles De La Historia'
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: Documental 'Sobre Los Rieles De La Historia'
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: El Pela Romero - "Basta De Amores De Mierda"
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: Observación De Aves
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: 2 Edición De "La Peña De Bartito"
+2026-05-08 10:48:19,173 - INFO -  Evento encontrado: Taller de Endometriosis Mujer cuida tu salud
+2026-05-08 10:48:19,174 - INFO -  Evento encontrado: Mercado en tu Barrio (Ofertas)
+2026-05-08 10:48:19,174 - INFO -  Evento encontrado: Jornadas de Eco Canje
+2026-05-08 10:48:19,174 - INFO - Analizando con IA: https://www.tucumanturismo.gob.ar/eventos
+2026-05-08 10:48:19,857 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:48:19,857 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:48:24,074 - INFO - Response received from the model.
+2026-05-08 10:48:24,075 - INFO - Analizando con IA: https://norteticket.com/?subcategoria=Tucuman
+2026-05-08 10:48:24,758 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:48:24,758 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:48:31,309 - INFO - Response received from the model.
+2026-05-08 10:48:31,311 - INFO -  Evento encontrado: DR LA ROSA EN TUCUMAN
+2026-05-08 10:48:31,311 - INFO -  Evento encontrado: NORTE ROCK 2026
+2026-05-08 10:48:31,311 - INFO -  Evento encontrado: NO TE VA GUSTAR EN TUCUMAN
+2026-05-08 10:48:31,311 - INFO - Analizando con IA: https://lascanasgroup.com.ar/
+2026-05-08 10:48:32,019 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:48:32,019 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:48:40,160 - INFO - Response received from the model.
+2026-05-08 10:48:40,161 - INFO -  Evento encontrado: 21K Yerba Buena
+2026-05-08 10:48:40,162 - INFO -  Evento encontrado: Festival Tocando al Frente
+2026-05-08 10:48:40,162 - INFO -  Evento encontrado: Argenti Lemon
+2026-05-08 10:48:40,162 - INFO - Analizando con IA: https://yerbabuena.tur.ar/eventos/
+2026-05-08 10:48:40,842 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:48:40,843 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:48:53,512 - INFO - Response received from the model.
+2026-05-08 10:48:53,513 - INFO -  Evento encontrado: Love Up!
+2026-05-08 10:48:53,514 - INFO -  Evento encontrado: Shopping Fest 2026
+2026-05-08 10:48:53,514 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:48:53,514 - INFO -  Evento encontrado: TOUR FERIA CIUDAD JARDÍN
+2026-05-08 10:48:53,514 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:48:53,514 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:48:53,515 - INFO -  Evento encontrado: Lunita Tucumana
+2026-05-08 10:48:53,515 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:48:53,515 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:48:53,515 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:48:53,515 - INFO - Enviando 26 eventos a la base de datos...
+2026-05-08 10:48:57,949 - INFO - revision cancelada.
+2026-05-08 10:48:57,954 - INFO - Prueba finalizada.
+2026-05-08 10:50:46,907 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-08 10:51:13,863 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-08 10:51:14,695 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:51:14,695 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:58:29,693 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-08 10:58:59,462 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-08 10:59:00,315 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:59:00,316 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:59:13,121 - INFO - Response received from the model.
+2026-05-08 10:59:13,123 - INFO -  Evento encontrado: Avant Premiere de Agenda Tucumán
+2026-05-08 10:59:13,123 - INFO -  Evento encontrado: Premiere N° 301 con Mortal Kombat II
+2026-05-08 10:59:13,123 - INFO -  Evento encontrado: Pre-estreno de El diablo viste a la moda 2
+2026-05-08 10:59:13,123 - INFO -  Evento encontrado: Proyectaran El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-08 10:59:13,123 - INFO -  Evento encontrado: Proyectaran El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-08 10:59:13,124 - INFO -  Evento encontrado: El Pela Romero - “Basta De Amores De Mierda”
+2026-05-08 10:59:13,124 - INFO -  Evento encontrado: Observación De Aves En El Parque 9 De Julio
+2026-05-08 10:59:13,124 - INFO -  Evento encontrado: 2° Edición De «La Peña De Bartito»
+2026-05-08 10:59:13,124 - INFO -  Evento encontrado: Taller de Endometriosis “Mujer cuida tu salud”
+2026-05-08 10:59:13,124 - INFO -  Evento encontrado: Cartelera Cinemacenter Tucumán (Michael y El Bufón 2)
+2026-05-08 10:59:13,124 - INFO - Analizando con IA: https://www.tucumanturismo.gob.ar/eventos
+2026-05-08 10:59:13,871 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:59:13,872 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:59:20,306 - INFO - Response received from the model.
+2026-05-08 10:59:20,307 - INFO - Analizando con IA: https://norteticket.com/?subcategoria=Tucuman
+2026-05-08 10:59:21,029 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:59:21,029 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:59:31,054 - INFO - Response received from the model.
+2026-05-08 10:59:31,055 - INFO -  Evento encontrado: Dr. La Rosa
+2026-05-08 10:59:31,055 - INFO -  Evento encontrado: NORTE ROCK 2026
+2026-05-08 10:59:31,056 - INFO -  Evento encontrado: No Te Va Gustar
+2026-05-08 10:59:31,056 - INFO - Analizando con IA: https://lascanasgroup.com.ar/
+2026-05-08 10:59:31,765 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:59:31,765 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:59:40,594 - INFO - Response received from the model.
+2026-05-08 10:59:40,596 - INFO -  Evento encontrado: 21K Yerba Buena
+2026-05-08 10:59:40,596 - INFO -  Evento encontrado: Festival Tocando al Frente
+2026-05-08 10:59:40,596 - INFO -  Evento encontrado: Evento Argenti Lemon
+2026-05-08 10:59:40,596 - INFO - Analizando con IA: https://yerbabuena.tur.ar/eventos/
+2026-05-08 10:59:41,287 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 10:59:41,288 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 10:59:54,828 - INFO - Response received from the model.
+2026-05-08 10:59:54,829 - INFO -  Evento encontrado: Love Up!
+2026-05-08 10:59:54,829 - INFO -  Evento encontrado: Shopping Fest 2026
+2026-05-08 10:59:54,829 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: TOUR FERIA CIUDAD JARDÍN
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Lunita Tucumana
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Yoga
+2026-05-08 10:59:54,830 - INFO -  Evento encontrado: Eco Team
+2026-05-08 10:59:54,830 - INFO - Enviando 26 eventos a la base de datos...
+2026-05-08 11:00:07,320 - CRITICAL - Erro: No se pudo conectar con Java. ¿Está corriendo el proyecto de Spring Boot?
+2026-05-08 11:00:07,326 - INFO - Prueba finalizada.
