@@ -1,0 +1,131 @@
+2026-05-07 23:36:09,912 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-07 23:38:34,724 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-07 23:38:52,785 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-07 23:38:53,581 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:38:53,582 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:39:04,586 - INFO - Response received from the model.
+2026-05-07 23:39:04,587 - INFO -  Evento encontrado: Documental 'Sobre Los Rieles De La Historia'
+2026-05-07 23:39:04,591 - INFO -  Evento encontrado: Documental 'Sobre Los Rieles De La Historia'
+2026-05-07 23:39:04,591 - INFO -  Evento encontrado: Basta De Amores De Mierda
+2026-05-07 23:39:04,592 - INFO -  Evento encontrado: Observación De Aves
+2026-05-07 23:39:04,592 - INFO -  Evento encontrado: La Peña De Bartito
+2026-05-07 23:39:04,592 - INFO -  Evento encontrado: Taller de Endometriosis 'Mujer cuida tu salud'
+2026-05-07 23:39:04,592 - INFO - Analizando con IA: https://www.tucumanturismo.gob.ar/eventos
+2026-05-07 23:39:05,276 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:39:05,277 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:39:11,235 - INFO - Response received from the model.
+2026-05-07 23:39:11,236 - INFO - Analizando con IA: https://norteticket.com/?subcategoria=Tucuman
+2026-05-07 23:39:11,910 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:39:11,911 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:39:20,205 - INFO - Response received from the model.
+2026-05-07 23:39:20,207 - INFO -  Evento encontrado: DR LA ROSA EN TUCUMAN
+2026-05-07 23:39:20,207 - INFO -  Evento encontrado: NORTE ROCK 2026
+2026-05-07 23:39:20,207 - INFO -  Evento encontrado: NO TE VA GUSTAR EN TUCUMAN
+2026-05-07 23:39:20,207 - INFO - Analizando con IA: https://lascanasgroup.com.ar/
+2026-05-07 23:39:20,878 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:39:20,879 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:39:26,872 - INFO - Response received from the model.
+2026-05-07 23:39:26,874 - INFO - Analizando con IA: https://yerbabuena.tur.ar/eventos/
+2026-05-07 23:39:27,548 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:39:27,548 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:39:39,751 - INFO - Response received from the model.
+2026-05-07 23:39:39,753 - INFO -  Evento encontrado: Love Up!
+2026-05-07 23:39:39,753 - INFO -  Evento encontrado: Shopping Fest 2026
+2026-05-07 23:39:39,753 - INFO -  Evento encontrado: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:39:39,753 - INFO -  Evento encontrado: TOUR FERIA CIUDAD JARDÍN
+2026-05-07 23:39:39,753 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:39:39,754 - INFO -  Evento encontrado: Yoga (Parque Percy Hill)
+2026-05-07 23:39:39,754 - INFO -  Evento encontrado: Lunita Tucumana
+2026-05-07 23:39:39,754 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:39:39,754 - INFO -  Evento encontrado: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:39:39,754 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:39:39,754 - INFO - Enviando 19 eventos a la base de datos...
+2026-05-07 23:39:39,930 - ERROR - Error de Java al guardar 'Documental 'Sobre Los Rieles De La Historia''. Código HTTP: 400
+2026-05-07 23:39:39,940 - ERROR - Error de Java al guardar 'Documental 'Sobre Los Rieles De La Historia''. Código HTTP: 400
+2026-05-07 23:39:39,947 - ERROR - Error de Java al guardar 'Basta De Amores De Mierda'. Código HTTP: 400
+2026-05-07 23:39:39,955 - ERROR - Error de Java al guardar 'Observación De Aves'. Código HTTP: 400
+2026-05-07 23:39:39,963 - ERROR - Error de Java al guardar 'La Peña De Bartito'. Código HTTP: 400
+2026-05-07 23:39:39,970 - ERROR - Error de Java al guardar 'Taller de Endometriosis 'Mujer cuida tu salud''. Código HTTP: 400
+2026-05-07 23:39:39,977 - ERROR - Error de Java al guardar 'DR LA ROSA EN TUCUMAN'. Código HTTP: 400
+2026-05-07 23:39:39,984 - ERROR - Error de Java al guardar 'NORTE ROCK 2026'. Código HTTP: 400
+2026-05-07 23:39:39,991 - ERROR - Error de Java al guardar 'NO TE VA GUSTAR EN TUCUMAN'. Código HTTP: 400
+2026-05-07 23:39:39,998 - ERROR - Error de Java al guardar 'Love Up!'. Código HTTP: 400
+2026-05-07 23:39:40,005 - ERROR - Error de Java al guardar 'Shopping Fest 2026'. Código HTTP: 400
+2026-05-07 23:39:40,012 - ERROR - Error de Java al guardar 'Yoga (Jardín Botánico Horco Molle)'. Código HTTP: 400
+2026-05-07 23:39:40,018 - ERROR - Error de Java al guardar 'TOUR FERIA CIUDAD JARDÍN'. Código HTTP: 400
+2026-05-07 23:39:40,025 - ERROR - Error de Java al guardar 'Eco Team'. Código HTTP: 400
+2026-05-07 23:39:40,031 - ERROR - Error de Java al guardar 'Yoga (Parque Percy Hill)'. Código HTTP: 400
+2026-05-07 23:39:40,037 - ERROR - Error de Java al guardar 'Lunita Tucumana'. Código HTTP: 400
+2026-05-07 23:39:40,044 - ERROR - Error de Java al guardar 'Eco Team'. Código HTTP: 400
+2026-05-07 23:39:40,050 - ERROR - Error de Java al guardar 'Yoga (Jardín Botánico Horco Molle)'. Código HTTP: 400
+2026-05-07 23:39:40,056 - ERROR - Error de Java al guardar 'Eco Team'. Código HTTP: 400
+2026-05-07 23:39:40,061 - INFO - Prueba finalizada.
+2026-05-07 23:49:57,332 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-07 23:50:05,903 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-07 23:50:06,721 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:50:06,722 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:50:17,446 - INFO - Response received from the model.
+2026-05-07 23:50:17,447 - INFO -  Evento encontrado: Avant Premiere de Mortal Kombat II
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: Pre-estreno de El diablo viste a la moda 2
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: El Pela Romero Llega Al Teatro Rosita Ávila Con “Basta De Amores De Mierda”
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: Observación De Aves En El Parque 9 De Julio
+2026-05-07 23:50:17,448 - INFO -  Evento encontrado: 2° Edición De «La Peña De Bartito»
+2026-05-07 23:50:17,449 - INFO -  Evento encontrado: Taller de Endometriosis “Mujer cuida tu salud”
+2026-05-07 23:50:17,449 - INFO - Analizando con IA: https://www.tucumanturismo.gob.ar/eventos
+2026-05-07 23:50:18,122 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:50:18,123 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:50:23,721 - INFO - Response received from the model.
+2026-05-07 23:50:23,722 - INFO - Analizando con IA: https://norteticket.com/?subcategoria=Tucuman
+2026-05-07 23:50:24,402 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:50:24,402 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:50:33,173 - INFO - Response received from the model.
+2026-05-07 23:50:33,174 - INFO -  Evento encontrado: DR LA ROSA EN TUCUMAN
+2026-05-07 23:50:33,174 - INFO -  Evento encontrado: NORTE ROCK 2026
+2026-05-07 23:50:33,174 - INFO -  Evento encontrado: NO TE VA GUSTAR EN TUCUMAN
+2026-05-07 23:50:33,174 - INFO - Analizando con IA: https://lascanasgroup.com.ar/
+2026-05-07 23:50:33,858 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:50:33,858 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:50:41,279 - INFO - Response received from the model.
+2026-05-07 23:50:41,280 - INFO -  Evento encontrado: 21K Yerba Buena
+2026-05-07 23:50:41,281 - INFO -  Evento encontrado: Festival Tocando al Frente
+2026-05-07 23:50:41,281 - INFO - Analizando con IA: https://yerbabuena.tur.ar/eventos/
+2026-05-07 23:50:41,963 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-07 23:50:41,964 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-07 23:50:54,311 - INFO - Response received from the model.
+2026-05-07 23:50:54,312 - INFO -  Evento encontrado: Love Up!
+2026-05-07 23:50:54,312 - INFO -  Evento encontrado: Shopping Fest 2026
+2026-05-07 23:50:54,312 - INFO -  Evento encontrado: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:50:54,312 - INFO -  Evento encontrado: TOUR FERIA CIUDAD JARDÍN
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Yoga (Parque Percy Hill)
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Lunita Tucumana
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:50:54,313 - INFO -  Evento encontrado: Eco Team
+2026-05-07 23:50:54,313 - INFO - Enviando 23 eventos a la base de datos...
+2026-05-07 23:50:54,571 - INFO -  Guardado en MongoDB: Avant Premiere de Mortal Kombat II
+2026-05-07 23:50:54,578 - INFO -  Guardado en MongoDB: Pre-estreno de El diablo viste a la moda 2
+2026-05-07 23:50:54,585 - INFO -  Guardado en MongoDB: El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-07 23:50:54,592 - INFO -  Guardado en MongoDB: El Documental ‘Sobre Los Rieles De La Historia’
+2026-05-07 23:50:54,599 - INFO -  Guardado en MongoDB: El Pela Romero Llega Al Teatro Rosita Ávila Con “Basta De Amores De Mierda”
+2026-05-07 23:50:54,606 - INFO -  Guardado en MongoDB: Observación De Aves En El Parque 9 De Julio
+2026-05-07 23:50:54,614 - INFO -  Guardado en MongoDB: 2° Edición De «La Peña De Bartito»
+2026-05-07 23:50:54,621 - INFO -  Guardado en MongoDB: Taller de Endometriosis “Mujer cuida tu salud”
+2026-05-07 23:50:54,627 - INFO -  Guardado en MongoDB: DR LA ROSA EN TUCUMAN
+2026-05-07 23:50:54,635 - INFO -  Guardado en MongoDB: NORTE ROCK 2026
+2026-05-07 23:50:54,642 - INFO -  Guardado en MongoDB: NO TE VA GUSTAR EN TUCUMAN
+2026-05-07 23:50:54,649 - INFO -  Guardado en MongoDB: 21K Yerba Buena
+2026-05-07 23:50:54,656 - INFO -  Guardado en MongoDB: Festival Tocando al Frente
+2026-05-07 23:50:54,662 - INFO -  Guardado en MongoDB: Love Up!
+2026-05-07 23:50:54,669 - INFO -  Guardado en MongoDB: Shopping Fest 2026
+2026-05-07 23:50:54,676 - INFO -  Guardado en MongoDB: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:50:54,682 - INFO -  Guardado en MongoDB: TOUR FERIA CIUDAD JARDÍN
+2026-05-07 23:50:54,689 - INFO -  Guardado en MongoDB: Eco Team
+2026-05-07 23:50:54,696 - INFO -  Guardado en MongoDB: Yoga (Parque Percy Hill)
+2026-05-07 23:50:54,702 - INFO -  Guardado en MongoDB: Lunita Tucumana
+2026-05-07 23:50:54,709 - INFO -  Guardado en MongoDB: Eco Team
+2026-05-07 23:50:54,716 - INFO -  Guardado en MongoDB: Yoga (Jardín Botánico Horco Molle)
+2026-05-07 23:50:54,723 - INFO -  Guardado en MongoDB: Eco Team
+2026-05-07 23:50:54,727 - INFO - Prueba finalizada.
