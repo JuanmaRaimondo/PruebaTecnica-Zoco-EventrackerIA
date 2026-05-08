@@ -129,3 +129,55 @@
 2026-05-07 23:50:54,716 - INFO -  Guardado en MongoDB: Yoga (Jardín Botánico Horco Molle)
 2026-05-07 23:50:54,723 - INFO -  Guardado en MongoDB: Eco Team
 2026-05-07 23:50:54,727 - INFO - Prueba finalizada.
+2026-05-08 00:23:20,592 - INFO - Extrayendo datos de las páginas web seleccionadas
+2026-05-08 00:23:35,848 - INFO - Analizando con IA: https://agendatucuman.com.ar/
+2026-05-08 00:23:36,718 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 00:23:36,719 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 00:23:47,908 - INFO - Response received from the model.
+2026-05-08 00:23:47,909 - INFO -  Evento encontrado: Avant Premiere de Agenda Tucumán
+2026-05-08 00:23:47,909 - INFO -  Evento encontrado: Mortal Kombat II
+2026-05-08 00:23:47,909 - INFO -  Evento encontrado: El diablo viste a la moda 2
+2026-05-08 00:23:47,910 - INFO -  Evento encontrado: Sobre Los Rieles De La Historia
+2026-05-08 00:23:47,910 - INFO -  Evento encontrado: El Pela Romero Llega Al Teatro Rosita Ávila Con “Basta De Amores De Mierda”
+2026-05-08 00:23:47,910 - INFO -  Evento encontrado: Observación De Aves En El Parque 9 De Julio
+2026-05-08 00:23:47,910 - INFO -  Evento encontrado: La Peña De Bartito
+2026-05-08 00:23:47,910 - INFO -  Evento encontrado: Taller de Endometriosis “Mujer cuida tu salud”
+2026-05-08 00:23:47,910 - INFO - Analizando con IA: https://www.tucumanturismo.gob.ar/eventos
+2026-05-08 00:23:48,625 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 00:23:48,625 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 00:23:53,549 - INFO - Response received from the model.
+2026-05-08 00:23:53,550 - INFO - Analizando con IA: https://norteticket.com/?subcategoria=Tucuman
+2026-05-08 00:23:54,270 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 00:23:54,270 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 00:24:02,030 - INFO - Response received from the model.
+2026-05-08 00:24:02,031 - INFO -  Evento encontrado: DR LA ROSA EN TUCUMAN
+2026-05-08 00:24:02,031 - INFO -  Evento encontrado: NORTE ROCK 2026
+2026-05-08 00:24:02,032 - INFO -  Evento encontrado: NO TE VA GUSTAR EN TUCUMAN
+2026-05-08 00:24:02,032 - INFO - Analizando con IA: https://lascanasgroup.com.ar/
+2026-05-08 00:24:02,733 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 00:24:02,733 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 00:24:11,900 - INFO - Response received from the model.
+2026-05-08 00:24:11,901 - INFO -  Evento encontrado: 21K Yerba Buena
+2026-05-08 00:24:11,901 - INFO -  Evento encontrado: Festival Tocando al Frente
+2026-05-08 00:24:11,901 - INFO -  Evento encontrado: Argenti Lemon
+2026-05-08 00:24:11,901 - INFO - Analizando con IA: https://yerbabuena.tur.ar/eventos/
+2026-05-08 00:24:12,692 - INFO - Sending out request, model: gemini-2.5-flash, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-05-08 00:24:12,693 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 00:24:24,746 - INFO - Response received from the model.
+2026-05-08 00:24:24,747 - INFO -  Evento encontrado: Love Up!
+2026-05-08 00:24:24,747 - INFO -  Evento encontrado: Shopping Fest 2026
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: Yoga
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: TOUR FERIA CIUDAD JARDÍN
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: Eco Team
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: Yoga
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: Lunita Tucumana
+2026-05-08 00:24:24,748 - INFO -  Evento encontrado: Eco Team
+2026-05-08 00:24:24,749 - WARNING - Evento duplicado: Yoga
+2026-05-08 00:24:24,749 - WARNING - Evento duplicado: Eco Team
+2026-05-08 00:24:24,749 - INFO - Enviando 22 eventos a la base de datos...
+2026-05-08 00:24:46,815 - INFO -  Guardado en MongoDB: Avant Premiere de Agenda Tucumán
+2026-05-08 00:25:02,812 - INFO - Se descarta el eventoMortal Kombat II por pedido del usuario
+2026-05-08 00:25:13,669 - INFO -  Guardado en MongoDB: El diablo viste a la moda 2
+2026-05-08 00:25:15,229 - INFO - Se descarta el eventoSobre Los Rieles De La Historia por pedido del usuario
+2026-05-08 00:25:17,939 - INFO - revision cancelada.
+2026-05-08 00:25:17,943 - INFO - Prueba finalizada.

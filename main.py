@@ -18,7 +18,7 @@ logging.basicConfig(
     ]
 )
 
-async def ejecutar_pipeline():
+async def ejecutar_pipeline(autorizacion_manual = False):
     
     logging.info("Extrayendo datos de las páginas web seleccionadas")
     paginas = await asyncio.to_thread(extraer_eventos_crudos)
@@ -49,6 +49,21 @@ async def ejecutar_pipeline():
     if eventos_a_guardar:
         logging.info(f"Enviando {len(eventos_a_guardar)} eventos a la base de datos...")
         for evento in eventos_a_guardar:
+
+            if autorizacion_manual:
+                print(f"Evento: {evento.get('nombre')}")
+                print(f"Ubicacion: {evento.get('ubicacion')}")
+                print(f"Fecha: {evento.get('fechaEvento')}")
+                print(f"Categoria: {evento.get('categoria')}")
+                decision = input(" Guardamos el evento en la base de datos? 1= Si, 2 = No, 0 = Salir " ).strip()
+                if decision == "0":
+                    logging.info("revision cancelada.")
+                    break
+
+                if decision != "1":
+                    logging.info(f"Se descarta el evento{evento.get('nombre')} por pedido del usuario")
+                    continue
+
             try:
                 
                 url_java = "http://localhost:8081/api/evento/crear" 
@@ -70,7 +85,7 @@ async def ejecutar_pipeline():
 async def automatizacion_continua():
     """Bucle infinito que ejecuta el ciclo y luego duerme."""
     while True:
-        await ejecutar_pipeline()
+        await ejecutar_pipeline(autorizacion_manual=False)
         horas_espera = 24
         logging.info(f"Sistema en espera. Próxima búsqueda automática en {horas_espera} horas...")
         
@@ -81,7 +96,7 @@ if __name__ == "__main__":
     opcion = input("\nElegí una opción (1 o 2) y presioná Enter: ").strip()
 
     if opcion == "1":
-        asyncio.run(ejecutar_pipeline())
+        asyncio.run(ejecutar_pipeline(autorizacion_manual=True))
         logging.info("Prueba finalizada.")
     elif opcion == "2":
 
