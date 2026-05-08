@@ -66,7 +66,7 @@ async def ejecutar_pipeline(autorizacion_manual = False):
 
             try:
                 
-                url_java = "http://localhost:8081/api/evento/crear" 
+                url_java = "http://eventracker-backend:8081/api/evento/crear" 
                 response = requests.post(url_java, json=evento)
                 
                 if response.status_code in [200, 201]:
